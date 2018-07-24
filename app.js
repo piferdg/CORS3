@@ -35,5 +35,4 @@ app.get('/:id', (request, response) => {
   }
 })
 
-app.listen(port, () => 
-  console.log('listening on port', port))
+app.listen(port)
